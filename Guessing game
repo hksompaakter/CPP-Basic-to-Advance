@@ -1,0 +1,24 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    while(1)
+    {
+     int guessNumber,randomNumber;
+     cout<<"Enter your guess number between 1 to 5:";
+     cin>>guessNumber;
+     randomNumber=rand()%5;
+    if(randomNumber==guessNumber)
+    {
+        cout<<"you are win"<<endl;
+    }
+    else{
+        cout<<"you are lost,try  again"<<endl;
+        cout<<"Random Number was:"<<randomNumber <<endl;
+    }
+    }
+    getch();
+
+
+}
