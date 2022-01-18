@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+class student
+{
+    public:
+        int id;
+        double gpa;
+
+};
+
+int main()
+{
+   student Sompa;
+   Sompa.id=200;
+   Sompa.gpa=3.89;
+   cout<<Sompa.id<<" "<<Sompa.gpa<<;
+   getch();
+}
